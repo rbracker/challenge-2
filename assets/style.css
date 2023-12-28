@@ -10,6 +10,12 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 header {
@@ -36,17 +42,18 @@ nav li {
     margin: 0 15px;
 }
 
-/* Updated CSS for Work Section */
 #work {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between; /* Adjust as needed */
+    text-align: center;
 }
 
-/* Updated CSS for Work Items */
 .work-item {
-    flex: 0 0 calc(33.33% - 20px); /* Adjust width and margin as needed */
-    margin-bottom: 20px;
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 0 10px 20px;
     box-sizing: border-box;
 }
 
@@ -87,9 +94,15 @@ nav a:hover {
 #about-me {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .paragraph {
-    margin-bottom: 40px;
-    line-height: 1.5;
+    margin-bottom: 20px;
+    line-height: 1;
 }
