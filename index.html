@@ -1,64 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>All About Ranee Bracker</title>
-    </head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Ranee Bracker - Portfolio</title>
+</head>
 <body>
-    <div class="header">
-        <h1>Ranee Bracker<span class="banner"></span></h1>
-        <div>
-            <li>
-                <a href="#about-me">About Me</a>
-            </li>
-            <li>
-                <a href="#resume-and-work">Resume & Work</a>
-            </li>
-            <li>
-                <a href="#coding-projects">Coding Projects</a>
-            </li>
-            <li>
-                <a href="#how-to-contact-me">How to Contact Me</a>
-            </li>
-            
+    <header>
+        <div class="container">
+            <img src="images/IMG_1195[263].JPG" alt="Ranee Bracker">
+            <h1>Ranee Bracker</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-    <div class="descriptions"></div>
-    <div class="content"></div>
-        <div id="about-me" class="about-me">
-                <img src="assets/images/ranee-bracker.jpg" class="float-left"/>
-                <h2>About Me</h2>
-            <p>
-                Hello, my name is Ranee Bracker. I am Navajo. I am 25 years old. I have a daughter who is 2 years old. Her name is Mika Smiley. Growing up, I have lived in different areas of both Utah and Arizona. My goal or dream after I finish this bootcamp is to get a job at Microsoft or Amazon and move to Seattle with my daughter.
-                Currently, I am an Assistant Store Manager at a paint company called Dunn-Edwards Paints. I have been with the company for over 4 years now. I started out as a Sales Associate and worked my way up to ASM. After having my daughter, I realized I didn't want to be away from her as much as I am. I spend about 45-50 hours a week at work
-                and commuting to work takes me 30 mins each way. So, I started looking into work from home jobs. Most of what I found were jobs where I needed a degree. Until I stumbled upon Software Engineering. After doing some research here and there, I knew that this job would allow me the work life balance to support me and my daughter as well
-                as allow me to be there for her as a single parent. A big part of being a Software Engineer is sovling problems, I thought I would be a great fit for this because, I have already been solving problems and finding solutions at my current job. Its a difficult transition, but I know this is what I want to do with my life.
-            </p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about-me">
+        <h2>About Me</h2>
+        <div class="paragraph">
+            <p>My name is Ranee Bracker, and I am a proud member of the Navajo Nation. At 25 years old,</p>
         </div>
-        <div id="resume-and-work" class="resume-and-work">
-            <h2>Resume</h2>
-            <img src="assets/images/ranee-bracker-resume.png" class="float-left">                                                                                                                                                                                                        
+        <div class="paragraph">
+            <p>I am a dedicated professional with a strong background in retail management.</p>
+            <p>Currently serving as an Assistant Store Manager at Dunn-Edwards Paints, I have</p>
+            <p>accumulated over four years of experience, starting as a Sales Associate and progressing to my current role.</p>
         </div>
-        <div id="projects" class="projects">
-            <h2>Coding Projects</h2>
-            <img src="assets/images/Nothing-here-yet.webp" class="float-left">
-            <p>
-                Here are some coding projects I have worked on so far.
-                *Nothing here yet, but stay tuned!*
-                Enjoy!😊
-            </p>
+        <div class="paragraph">
+            <p>While my journey in the paint industry has been rewarding, the desire for a better work-life</p>
+            <p>balance has prompted me to explore new career opportunities. As a single parent to my two-year-old daughter,</p>
+            <p>Mika Smiley, finding a fulfilling career that allows me to be present for her is paramount.</p>
         </div>
-        <div id="how-to-contact-me" class="how-to-contact-me">
-            <h2>How to Contact me</h2>
-            <p>
-                email: brandibracker4@gmail.com
-                cell phone: (602)836-0109
-                address: 2950 N 46th St Apt 227 Phoenix,Az 85018
-            </p>
+        <div class="paragraph">
+            <p>My extensive research into remote work led me to discover the field of Software Engineering.</p>
+            <p>The prospect of problem-solving and finding innovative solutions in this domain resonated with me.</p>
+            <p>I am confident that my experience in addressing challenges and driving solutions in my current role</p>
+            <p>has equipped me with a valuable skill set for a career in software engineering.</p>
         </div>
-    <div class="end-note">
-        <h2>😊Now you know a little about Ranee Bracker😊</h2>
-    </div>
+        <div class="paragraph">
+            <p>Upon completion of a rigorous boot camp, my aspiration is to contribute my skills</p>
+            <p>and dedication to a dynamic tech company such as Microsoft or Amazon. I am particularly drawn</p>
+            <p>to the vibrant tech community in Seattle, and relocating to the area aligns with my long-term goals.</p>
+        </div>
+        <div class="paragraph">
+            <p>I am enthusiastic about the prospect of transitioning into software engineering,</p>
+            <p>recognizing it as an opportunity not only for personal growth but also to create a better</p>
+            <p>future for myself and my daughter. I am committed to leveraging my problem-solving</p> 
+            <p>abilities and work ethic to excel in this exciting field.</p>
+        </div>
+    </section>
+    
+
+    <!-- Work Section -->
+    <section id="work" class="container">
+        <h2>My Work</h2>
+        <div class="work-item">
+            <a href="https://rbracker.github.io/quiz-time/" target="_blank">
+                <img src="./images/projects/Quiz -time-screenshot.png" alt="Quiz-time project">
+            <p>The Quiz-time project involves building a browser-based, timed</p>
+            <p>coding quiz focusing on JavaScript fundamentals. The goal is to provide a practical experience</p>
+            <p>in handling coding assessments, a common part of web development interviews. The app will feature</p>
+            <p>dynamically updated HTML and CSS powered by JavaScript, creating a polished and responsive user</p>
+            <p>interface. Users, particularly coding boot camp students, can click a start button to initiate the timed</p>
+            <p>quiz. As they answer questions, the timer starts, and incorrect answers result in time deductions. The game</p>
+            <p>concludes when all questions are answered or the timer reaches zero. After the game ends, users can save their</p>
+            <p>initials and score, allowing them to gauge their progress and compare results with peers. The project aims to</p>
+            <p>prepare students for technical interviews by providing a hands-on opportunity to apply JavaScript skills and</p>
+            <p>simulate a real-world coding assessment scenario.</p>
+        </div>
+        <div class="work-item">
+            <a href="https://rbracker.github.io/elemental-forecast/" target="_blank">
+                <img src="./images/projects/Elemental-Forecast-screenshot.png" alt="Elemental-Forecast project">
+            <p>The Elemental-Forecast project involves creating a dynamic weather dashboard </p>
+            <p>that runs in the browser, utilizing third-party APIs, specifically the OpenWeatherMap API. The dashboard</p>
+            <p>allows travelers to access weather outlooks for multiple cities, aiding in trip planning. Users can search for a</p>
+            <p>city, and upon searching, the dashboard displays current and future weather conditions for the selected city, while</p>
+            <p>also adding it to the search history. Details provided include the city name, date, weather icon, temperature,</p>
+            <p>humidity, and wind speed. Additionally, the dashboard presents a 5-day forecast with date, weather icon, temperature,</p>
+            <p>wind speed, and humidity. The search history allows users to revisit the weather conditions for a previously searched </p>
+            <p>city. The project employs localStorage to store persistent data and requires the use of a valid API key for access to</p>
+            <p>the OpenWeatherMap API.</p>
+        </div>
+        <div class="work-item">
+            <a href="https://rbracker.github.io/breakfastclub-project/" target="_blank">
+                <img src="./images/projects/The Dad-A-Base.png" alt="The Dad-A-Base">
+            <p>The Dad-A-Base serves as a crucial milestone in my full-stack web development journey.</p>
+            <p>Key requirements include the use of a CSS framework other than Bootstrap, deployment on GitHub Pages, interactivity,</p>
+            <p>incorporation of at least two server-side APIs, avoidance of alerts/confirms/prompts (favoring modals), implementation of client-side</p>
+            <p>storage for persistent data, responsiveness, and the delivery of a polished UI.</p>
+            <p>The project is more than just a demonstration of technical skills; it showcases my ability to collaborate effectively with other</p>
+            <p>developers.</p>
+        </div>
+        <!-- Add more work items as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>cell: 602.836.0109</p>
+        <p>email: rbracker@asu.edu</p>
+    </section>
+
+    <script src="script.js"></script>
 </body>
+</html>
